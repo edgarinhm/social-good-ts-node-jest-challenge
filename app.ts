@@ -2,7 +2,7 @@ import { Files } from "./files";
 
 const file = new Files();
 
-export const loadFile = async (file) => {
+export const loadFile = async (file: Files) => {
   try {
     const data = await file.readFile("index.html");
     await file.createFile(

@@ -5,7 +5,7 @@
   "scripts": {
     "test": "jest",
     "start": "node app.js",
-    "dev": "nodemon app.js"
+    "compile": "npx tsc app.ts"
   },
   "keywords": [],
   "author": "",
@@ -19,8 +19,5 @@
     "ts-jest": "^29.2.5",
     "ts-node": "^10.9.2",
     "typescript": "^5.7.3"
-  },
-  "dependencies": {
-    "express": "^4.21.2"
   }
 }
